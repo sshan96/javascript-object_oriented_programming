@@ -22,4 +22,4 @@ PersonPlus.prototype.avg = function () {
 var kim = new PersonPlus('kim', 10, 20, 30);
 console.log("kim.sum()", kim.sum());
 console.log("kim.avg()", kim.avg());
-console.log("kim.constructor", kim.constructor);
+console.log("kim.constructor", kim.constructor); //Output: PersonPlus kim 의 클래스가 무엇인지 추적
